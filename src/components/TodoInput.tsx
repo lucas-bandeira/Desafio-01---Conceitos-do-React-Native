@@ -17,7 +17,6 @@ export function TodoInput({ addTask  }: TodoInputProps) {
     setTask('');
   }
 
-
   return (
     <View style={styles.inputContainer}>
       <TextInput
